@@ -19,11 +19,11 @@ ESP32 Setup:
 * Ensure WiFi credentials (WIFI_SSID and WIFI_PASS) and sensor pin assignments (sensor_input, DHTPIN, DHTTYPE) are correctly configured.
 
 Flask Server Setup:
-*Install required Python packages: Flask.
-*Run main.py on your server (e.g., Raspberry Pi, local machine) with Python.
+* Install required Python packages: Flask.
+* Run main.py on your server (e.g., Raspberry Pi, local machine) with Python.
 
 ## Accessing Data:
-* Navigate to http://<server-ip>:5000/ to view real-time data.
+* Navigate to http://[server-ip]:5000/ to view real-time data.
 * The web page updates automatically using long polling whenever new data is received from ESP32.
 
 ## Example Usage:
